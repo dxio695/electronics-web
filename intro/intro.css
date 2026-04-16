@@ -1,11 +1,20 @@
+/* TITLE */
 h2 {
     text-align: center;
     -webkit-text-stroke: 0.5px white;
-    margin-top: 80px;
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+/* OUTLINE */
+h4 {
+    margin-top: 40px;
+    font-family: Roboto, 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
 }
 
 body {
-    background: linear-gradient(to right, #000000, #1a1a2e, #16213e, #000000);
+    background: linear-gradient(to right, #541f21, #292974, #292974, #541f21);
     background-size: 400% 400%;
     animation: gradientMove 8s ease infinite;
 }
@@ -15,3 +24,95 @@ body {
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
+
+.green {
+    color:rgb(73, 195, 89)
+}
+
+.red {
+    color:rgb(226, 13, 13)
+}
+
+.white {
+    color: white;
+}
+
+.grey {
+    color: rgb(160, 148, 148);
+}
+
+.yellow {
+    color: rgb(200, 200, 84);
+}
+
+.u {
+    text-decoration: underline;
+}
+
+.indent {
+    text-indent: 220px;
+}
+
+.indent-inline {
+    padding-left: 400px;
+}
+
+/* SCROLL BOX */
+.scroll-box {
+    width: 400px;
+    height: 150px;
+    border: 3px dashed black;
+    overflow-y: scroll;
+    padding: 10px;
+    scrollbar-width: none;
+    margin-left: 40px;
+    outline: 3px solid yellow;
+    outline-offset: 5px;
+
+}
+.layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    padding-right: 80px; /* adjust this to shift more right or left */
+}
+
+/* image */
+.side-img {
+    width: 300px;
+    height: auto;
+    margin-right: 60px;
+    margin-top: -10px;
+}
+
+/* redirects */
+.nav {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    white-space: nowrap
+}
+
+.nav span {
+    cursor: pointer;
+    padding: 0 10px;
+    display: inline-block;
+    text-align: center;
+    width: 80px; /* adjust to fit your text */
+    vertical-align: middle;
+}
+
+.nav span:hover {
+    color: yellow;
+}
+
+/* TITLE(BASIC CIRCUIT) */
+h3 {
+    color: beige;
+    text-align: center;
+    margin-top: 40px;
+    -webkit-text-stroke: 1px rgb(211, 211, 71);
+}
+
