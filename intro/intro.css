@@ -1,0 +1,17 @@
+h2 {
+    text-align: center;
+    -webkit-text-stroke: 0.5px white;
+    margin-top: 80px;
+}
+
+body {
+    background: linear-gradient(to right, #000000, #1a1a2e, #16213e, #000000);
+    background-size: 400% 400%;
+    animation: gradientMove 8s ease infinite;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
