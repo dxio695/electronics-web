@@ -13,6 +13,17 @@ h4 {
     font-size: large;
 }
 
+p {
+    font-size: 20px;
+    color: bisque;
+    text-align: center;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 70px;
+}
+
 body {
     background: linear-gradient(to right, #541f21, #292974, #292974, #541f21);
     background-size: 400% 400%;
@@ -116,3 +127,45 @@ h3 {
     -webkit-text-stroke: 1px rgb(211, 211, 71);
 }
 
+button {
+    margin-left: 1100px;
+}
+
+
+.layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.info-card {
+  position: relative;
+  border: 1.5px solid #4a90d9;
+  border-radius: 12px;
+  padding: 14px 16px;
+  background-color: #f0f7ff;
+  flex: 1;
+}
+
+.info-badge {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  width: 24px;
+  height: 24px;
+  background-color: #4a90d9;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+}
+
+.info-card p {
+  margin: 0;
+  font-size: 0.95em;
+  line-height: 1.6;
+}
