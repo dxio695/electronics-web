@@ -1,0 +1,12 @@
+body {
+    /* center*/
+    margin: 0px;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* fonts */
+    font-family: "Exo 2", sans-serif;
+}
